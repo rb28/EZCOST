@@ -1,0 +1,9 @@
+default:
+  root: "C:/"
+  source: "Source Data"
+  master: "Master_Data"
+  
+production:
+  root: "C:/"
+  source: "Source_Data"
+  master: "Master_Data"
