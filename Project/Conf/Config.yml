@@ -1,9 +1,13 @@
 default:
   root: "C:/"
+  debug: true
+  server: "localhost:8000"
   source: "Source Data"
   master: "Master_Data"
   
 production:
-  root: "C:/"
-  source: "Source_Data"
-  master: "Master_Data"
+  debug: !expr Sys.getenv("ENABLE_DEBUG") == "1"
+  server: !expr config::get("server", file = "/etc/server-config.yml")
+
+
+  
