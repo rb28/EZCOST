@@ -1,2 +1,2 @@
-# EZR2Cost
-Open source NHS patient level costing application using R
+# EZCost
+An opensource patient level costing application built using R.
