@@ -35,7 +35,17 @@ Project
 |--README.md
 |--Source
 |  +--alloc_statistics
+|  +--concept_dictionary
 |  +--general_ledger
+|     |--gl_balances.csv                           # Trial balance for period/ YTD
+|  +--mappings
+|     |--soci_map.csv                              # GL accounts mapped to SOCI reference
+|     |--cp2.1_costcentre_map.csv
+|     |--cp2.1_account_map.csv
+|     |--highcostdrugs
+|  +--master_data
+|  +--patient_activity
+|  +--support_activity
    
 
 ```
