@@ -28,12 +28,14 @@ The hope is that this project will encourage & inspire other NHS costing analyst
 * Database: MSSQL/SQLLite/MySQL/Oracle Express/Postgres(recommended) 
 
 
-## PROJECT STRUCTURE
+## STRUCTURE
 
 ```
 Project
 |--README.md
 |--Source
-   |--general_ledger
+|  +--alloc_statistics
+|  +--general_ledger
+   
 
 ```
