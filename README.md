@@ -33,17 +33,22 @@ The hope is that this project will encourage & inspire other NHS costing analyst
 ```
 Project
 |--README.md
+|--RScripts
+|  +--utility-functions
+|  +--validators
 |--Source
 |  +--alloc_statistics
 |  +--concept_dictionary
 |  +--general_ledger
 |     |--gl_balances.csv                           # Trial balance for period/ YTD
 |  +--mappings
-|     |--soci_map.csv                              # GL accounts mapped to SOCI reference
-|     |--cp2.1_costcentre_map.csv
-|     |--cp2.1_account_map.csv
-|     |--highcostdrugs
+|     |--soci_map.csv                              # Map GL accounts to SOCI references
+|     |--cp2.1_costcentre_map.csv                  # Map local GL costcentres to standard CTP costcentre hierarchy 
+|     |--cp2.1_account_map.csv                     # Map local GL accounts to standard CTP account hierarchy
+|     
 |  +--master_data
+|     |--highcostdrugs_list.csv                    # National list of approved high cost drugs
+|     |--hrg_trim_points.csv                       # List of HRG trim points for episodes/ spells
 |  +--patient_activity
 |  +--support_activity
    
